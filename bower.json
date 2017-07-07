@@ -1,0 +1,19 @@
+{
+  "name": "pdesigner",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dramoturg/pdesigner",
+  "authors": [
+    "Alexey Korol <korol@devexperts.com>"
+  ],
+  "dependencies": {
+     "dx-components": "devex-web-frontend/dx-components#~0.6.3"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
