@@ -81,6 +81,12 @@ module.exports = function() {
 							loader: 'stylus-loader',
 							options: {
 								use: [],
+								nocheck: true,
+								'include css': true,
+								'resolve url': true,
+								paths: [
+									ENV.LIB_PATH
+								]
 							},
 						},
 					],
