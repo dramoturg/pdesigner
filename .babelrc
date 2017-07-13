@@ -11,6 +11,7 @@
 	"plugins": [
 		"transform-class-properties",
 		"transform-decorators-legacy",
-		"transform-function-bind"
+		"transform-function-bind",
+		"transform-object-rest-spread"
 	]
 }

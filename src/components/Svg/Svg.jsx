@@ -1,21 +1,22 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Svg extends React.Component {
 	static propTypes = {
-		children: React.PropTypes.object,
-		viewBox: React.PropTypes.string,
+		children: PropTypes.object,
+		viewBox: PropTypes.string,
 	};
 
 	render() {
-		const {children, viewBox} = this.props
+		const {children, viewBox} = this.props;
+
 		return (
-			<div className={styles.root}>
-				<svg
-					viewBox={viewBox}
-					xmlns="http://www.w3.org/2000/svg"
+			<div>
+				<svg viewBox={viewBox}
+					 xmlns="http://www.w3.org/2000/svg">
 					{children}
 				</svg>
 			</div>
-		)
+		);
 	}
 }

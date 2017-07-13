@@ -15,7 +15,6 @@ const toggleButtonsTheme = themeable(toggleButtonsCss, {
 });
 
 export default class WorkArea extends React.Component {
-
 	state = {
 		toggleIndex: 0
 	}
@@ -34,10 +33,10 @@ export default class WorkArea extends React.Component {
 							<Button>Загрузить</Button>
 						</ToggleButtons>
 					</div>
-					<ButtonIcon name='zoom-in' />
-					<ButtonIcon name='zoom-out' />
-					<ButtonIcon name='delete' />
-					<ButtonIcon name='fullscreen' />
+					<ButtonIcon name="zoom-in" />
+					<ButtonIcon name="zoom-out" />
+					<ButtonIcon name="delete" />
+					<ButtonIcon name="fullscreen" />
 				</div>
 				<div className={css.content}>
 					<div className={css.aside}>
@@ -52,7 +51,7 @@ export default class WorkArea extends React.Component {
 					</div>
 				</div>
 			</div>
-		)
+		);
 	}
 
 	onToggleChange = (i) => {

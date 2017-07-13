@@ -1,17 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {PURE} from 'dx-util/src/react/pure';
 import {themr} from 'react-css-themr';
 import css from './Widget.styl';
 
 export const WIDGET = Symbol('Widget');
 export const WIDGET_PROP_TYPES = {
-	children: React.PropTypes.node,
-	header: React.PropTypes.node,
-	theme: React.PropTypes.shape({
-		container: React.PropTypes.string,
-		header: React.PropTypes.string,
-		body: React.PropTypes.string,
-		resizeHandler: React.PropTypes.string
+	children: PropTypes.node,
+	header: PropTypes.node,
+	theme: PropTypes.shape({
+		container: PropTypes.string,
+		header: PropTypes.string,
+		body: PropTypes.string,
+		resizeHandler: PropTypes.string
 	})
 };
 

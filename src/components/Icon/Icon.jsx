@@ -9,10 +9,10 @@ export default class pDesignerIcon extends React.Component {
 	static propTypes = Icon.propTypes;
 
 	render() {
-		const  {name, theme} = this.props;
-		return(
+		const {name, theme} = this.props;
+		return (
 			<i className={`${name} ${theme.container}`} />
-		)
+		);
 	}
 }
 

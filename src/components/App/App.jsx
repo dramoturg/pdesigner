@@ -5,10 +5,10 @@ import WorkArea from '../WorkArea/WorkArea';
 
 export default class App extends React.Component {
 	render() {
-		return(
+		return (
 			<div className={css.container}>
 				<WorkArea/>
 			</div>
-		)
+		);
 	}
 }

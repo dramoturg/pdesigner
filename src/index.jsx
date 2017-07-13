@@ -6,7 +6,7 @@ const renderApp = Component => {
 	ReactDOM.render(
 		<Component />,
 		document.getElementById('root')
-	)
+	);
 };
 
 renderApp(App);

@@ -7,11 +7,10 @@ import {themr} from 'react-css-themr';
 import css from './ButtonIcon.styl';
 
 @themr(BUTTON_ICON, css)
-export default class pDesignerButtnIcon extends React.Component {
+export default class pDesignerButtonIcon extends React.Component {
 	render() {
-		return(
+		return (
 			<ButtonIcon {...this.props} Icon={Icon} Button={Button} />
-		)
-
+		);
 	}
 }

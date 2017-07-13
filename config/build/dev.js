@@ -42,10 +42,9 @@ const noParse = [
 const alias = {};
 
 module.exports = function() {
-
 	const entry = [
 		'react-hot-loader/patch',
-		'./src/index.js',
+		'./src/index.jsx',
 	];
 
 	return {
@@ -103,5 +102,5 @@ module.exports = function() {
 			alias
 		},
 		plugins
-	}
+	};
 };

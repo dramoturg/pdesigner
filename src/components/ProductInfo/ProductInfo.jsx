@@ -7,7 +7,7 @@ export default class ProductPreview extends React.Component {
 			<div className={css.container}>
 				<div className={css.title}>BMW 1</div>
 				<div className={css.image}>
-					<img src="https://static.prostoprint.com/shops/142/designs/thumb-png-7552d101c06e842b5e5780257735a9b5.png" alt="BMW 1" />
+					<img src="src" alt="BMW 1" />
 				</div>
 				<div className={css.row}>
 					<div className={css.colors}>
@@ -25,6 +25,6 @@ export default class ProductPreview extends React.Component {
 					</p>
 				</div>
 			</div>
-		)
+		);
 	}
 }
